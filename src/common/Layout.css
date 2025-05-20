@@ -1,0 +1,17 @@
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  margin-top: 76px; /* altura del navbar */
+  padding-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-top: 122px; /* altura del navbar en móvil */
+  }
+} 
