@@ -1,3 +1,3 @@
-const API_URL = "http://localhost:3000"; // "https://my-books-api.onrender.com"
+const API_URL = "https://books-api-f1bx.onrender.com/";
 
 export default API_URL;
